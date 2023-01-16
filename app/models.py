@@ -1,9 +1,3 @@
-import email
-from itertools import product
-from locale import currency
-from multiprocessing.spawn import old_main_modules
-from ssl import OP_NO_RENEGOTIATION
-from tkinter import CASCADE
 from django.db import models
 from django.contrib.auth.models import User
 from django.contrib.postgres.fields import ArrayField
