@@ -23,7 +23,7 @@ class RegisterSerializer(serializers.Serializer):
 
 class LoginSerializer(serializers.Serializer):
     email = serializers.EmailField()
-    password = serializers.CharField(max_length = 100, min_length = 10)
+    password = serializers.CharField(max_length = 100, min_length = 7)
 
     def validate(self, attrs):
         attrs =  super().validate(attrs)

@@ -26,23 +26,4 @@ class AuthViewSet(viewsets.ViewSet):
 
         serializer.save()
 
-        return Response(status=status.HTTP_200_OK, data={})    
-
-            
-
-
-
-        
-
-           
-
-            
-
-
-
-
-
-
-
-         
-   
+        return Response(status=status.HTTP_200_OK, data={})  

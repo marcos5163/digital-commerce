@@ -1,6 +1,5 @@
 from django.urls import path
-
-from app.views import AuthViewSet
+from app.views.seller import AuthViewSet
 
 urlpatterns = [
     path(
